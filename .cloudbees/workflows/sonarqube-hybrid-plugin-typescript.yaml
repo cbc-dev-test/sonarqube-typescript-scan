@@ -15,8 +15,9 @@ jobs:
     steps:
       - name: checkout Source Code
         uses: cloudbees-io/checkout@v1
+
       - name: Setup sonarqube explicit scanner
-        uses: cloudbees-io/sonarqube-plugin@v1
+        uses: cloudbees-io/sonarqube-plugin@CBP-41936
         with:
           url: ${{ secrets.SONARQUBE_TEST_URL }}
           username: ${{ secrets.SONARQUBE_TEST_USERNAME }}
