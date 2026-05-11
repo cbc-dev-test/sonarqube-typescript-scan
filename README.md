@@ -1,4 +1,4 @@
-# TypeScript Code Smells  
+# TypeScript Code Smells   
 
 A demo repository that showcases various common (and serious) TypeScript/JavaScript code smells and misconfigurations.
 
